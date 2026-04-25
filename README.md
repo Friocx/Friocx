@@ -4,7 +4,7 @@
       <img src="./metrics.svg?v=2" alt="Stats">
     </td>
     <td width="45%" valign="top">
-      <img src="./isocalendar.svg?v=2" alt="3D Calendar">
+      <img src="./isocalendar.svg?v=2" alt="3D Calendar" width="200%">
       <br>
       <img src="./languages.svg?v=2" alt="Languages">
       <br>
