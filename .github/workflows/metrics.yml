@@ -13,7 +13,7 @@ jobs:
       - name: GitHub metrics
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets._FRIOCX_METRICS_TOKEN }}
+          token: ${{ secrets.FRIOCX_METRICS_TOKEN }}
           user: Friocx
           template: classic
           filename: metrics.svg
