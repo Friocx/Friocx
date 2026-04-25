@@ -1,10 +1,6 @@
 <table border="0">
-  <tr align="center">
-    <td width="50%" valign="top">
-      <img src="./metrics.svg" alt="General Stats">
-    </td>
-    <td width="50%" valign="top">
-      <img src="./isocalendar.svg" alt="Isometric Calendar">
-    </td>
-  </tr>
+<p align="center">
+  <img src="./metrics.svg" width="48%" />
+  <img src="./isocalendar.svg" width="48%" />
+</p>
 </table>
