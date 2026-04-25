@@ -12,5 +12,5 @@
 <br/>
 
 <div align="center">
-  <img src="./isocalendar.svg" alt="Isometric Calendar"></img>
+  <img src="./isocalendar.svg" alt="3D Calendar">
 </div>
