@@ -25,6 +25,13 @@ jobs:
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 8
 
-          # 📅 NEW: Isometric Calendar Settings
+      - name: Isometric Calendar
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.FRIOCX_METRICS_TOKEN }}
+          user: Friocx
+          template: classic
+          filename: isocalendar.svg
+          base: ""
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year # Options: half-year or full-year
+          plugin_isocalendar_duration: full-year

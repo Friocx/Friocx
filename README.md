@@ -8,3 +8,9 @@
     </td>
   </tr>
 </table>
+
+<br/>
+
+<div align="center">
+  <img src="./isocalendar.svg" alt="Isometric Calendar"></img>
+</div>
