@@ -49,4 +49,6 @@ jobs:
           plugin_languages_sections: most-used, icons
           plugin_languages_indepth: yes
           plugin_languages_limit: 8
+          plugin_languages_recent_load: 1000
+          plugin_languages_recent_days: 90
           repositories_affiliations: owner, collaborator, organization_member
