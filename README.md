@@ -7,6 +7,10 @@
       <img src="./isocalendar.svg?v=2" alt="3D Calendar">
       <br>
       <img src="./languages.svg?v=2" alt="Languages">
+      <br>
+      <b>Languages I used:</b>
+      <br>
+      <img src="https://skillicons.dev/icons?i=ts,php,py,js,html,css,laravel,react,nodejs,java" />
     </td>
   </tr>
 </table>
