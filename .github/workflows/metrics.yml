@@ -10,6 +10,7 @@ jobs:
     permissions:
       contents: write
     steps:
+      # Step 1: General Stats (The dots)
       - name: General Stats
         uses: lowlighter/metrics@latest
         with:
@@ -19,14 +20,11 @@ jobs:
           filename: metrics.svg
           base: header, community, repositories, metadata
           repositories_affiliations: owner, collaborator, organization_member
-          
-          # 🚀 ICONS + FULL HISTORY
           plugin_languages: yes
-          plugin_languages_indepth: yes
           plugin_languages_details: percentage, bytes-size
           plugin_languages_limit: 8
-          # Removed "recent_load" so it scans all your repos!
 
+      # Step 2: Isometric Calendar (The 3D view)
       - name: Isometric Calendar
         uses: lowlighter/metrics@latest
         with:
@@ -37,3 +35,17 @@ jobs:
           base: ""
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+
+      # Step 3: Technology Icons (The Skill Bar)
+      - name: Skill Icons
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.FRIOCX_METRICS_TOKEN }}
+          user: Friocx
+          template: classic
+          filename: skills.svg
+          base: ""
+          plugin_topics: yes
+          plugin_topics_limit: 15
+          plugin_topics_mode: icons # This shows JUST the logos
+          plugin_topics_sort: stars
