@@ -1,6 +1,12 @@
 <table border="0">
-<p align="center">
-  <img src="./metrics.svg" width="48%" />
-  <img src="./isocalendar.svg" width="48%" />
-</p>
+  <tr>
+    <td width="55%" valign="top">
+      <img src="./metrics.svg" alt="Stats">
+    </td>
+    <td width="45%" valign="top">
+      <img src="./isocalendar.svg" alt="3D Calendar">
+      <br>
+      <img src="./languages.svg" alt="Languages">
+    </td>
+  </tr>
 </table>
