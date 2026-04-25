@@ -3,8 +3,13 @@
   <tr><th colspan="2"><h3>📊 Friocx GitHub Stats</h3></th></tr>
   <tr>
     <td colspan="2" align="center">
-      <img src="./metrics.svg?v=1" alt="GitHub Metrics"></img>
-      <img width="900" height="1" alt="">
+      <img src="./metrics.svg" alt="GitHub Stats">
+
+<h3>🛠️ Tech Stack & Tools</h3>
+<img src="./skills.svg" alt="Tech Icons">
+
+<h3>📅 Contribution Activity</h3>
+<img src="./isocalendar.svg" alt="Isometric Calendar">
     </td>
   </tr>
 </table>
@@ -14,3 +19,5 @@
 <div align="center">
   <img src="./isocalendar.svg" alt="Isometric Calendar"></img>
 </div>
+
+
