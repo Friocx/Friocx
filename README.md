@@ -1,23 +1,12 @@
-<table>
- <tr><td colspan="2"><a href="/README.md">← Back</a></td></tr>
-  <tr><th colspan="2"><h3>📊 Friocx GitHub Stats</h3></th></tr>
+<table border="0">
   <tr>
-    <td colspan="2" align="center">
-      <img src="./metrics.svg" alt="GitHub Stats">
-
-<h3>🛠️ Tech Stack & Tools</h3>
-<img src="./skills.svg" alt="Tech Icons">
-
-<h3>📅 Contribution Activity</h3>
-<img src="./isocalendar.svg" alt="Isometric Calendar">
+    <td width="55%" valign="top">
+      <img src="./metrics.svg" alt="Stats">
+    </td>
+    <td width="45%" valign="top">
+      <img src="./isocalendar.svg" alt="3D Calendar">
+      <br>
+      <img src="./languages.svg" alt="Languages">
     </td>
   </tr>
 </table>
-
-<br/>
-
-<div align="center">
-  <img src="./isocalendar.svg" alt="Isometric Calendar"></img>
-</div>
-
-
