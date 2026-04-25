@@ -1,0 +1,37 @@
+name: Repository Metrics
+on:
+  # Schedule updates (daily at midnight)
+  schedule: [{cron: "0 0 * * *"}]
+  # (Optional) Run on every push to the main branch
+  push: {branches: ["master", "main"]}
+  # Allows you to run this manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Repository metrics
+        uses: lowlighter/metrics@latest
+        with:
+          # This is the secret name you created in Settings
+          token: ${{ secrets.METRICS_TOKEN }}
+          
+          # Your details
+          user: Friocx
+          repo: Friocx
+          
+          # Template configuration
+          template: repository
+          filename: metrics.repository.svg
+          
+          # Base content
+          base: header, contents, community
+          
+          # Plugins (The features you saw in the index)
+          plugin_lines: yes           # Shows lines of code changed
+          plugin_followup: yes        # Shows issues and PR status
+          plugin_languages: yes       # Shows the programming languages used
+          plugin_languages_details: bytes-size, percentage
