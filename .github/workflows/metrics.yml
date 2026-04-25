@@ -17,7 +17,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           # This is the secret name you created in Settings
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.FRIOCX_METRICS_TOKEN }}
           
           # Your details
           user: Friocx
