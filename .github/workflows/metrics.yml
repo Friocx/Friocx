@@ -31,7 +31,7 @@ jobs:
           filename: isocalendar.svg
           base: ""
           plugin_isocalendar: yes
-          plugin_isocalendar_year: 2026
+          plugin_isocalendar_duration: half-year
           extras_css: |
             h2, .divider, line, .stats { display: none !important; }
 
