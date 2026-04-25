@@ -1,15 +1,10 @@
-<table>
-  <tr><th colspan="2"><h3>📊 Friocx GitHub Stats</h3></th></tr>
-  <tr>
-    <td colspan="2" align="center">
-      <img src="./metrics.svg?v=1" alt="GitHub Metrics"></img>
-      <img width="900" height="1" alt="">
+<table border="0">
+  <tr align="center">
+    <td width="50%" valign="top">
+      <img src="./metrics.svg" alt="General Stats">
+    </td>
+    <td width="50%" valign="top">
+      <img src="./isocalendar.svg" alt="Isometric Calendar">
     </td>
   </tr>
 </table>
-
-<br/>
-
-<div align="center">
-  <img src="./isocalendar.svg" alt="3D Calendar">
-</div>
